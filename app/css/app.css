@@ -28,3 +28,11 @@
   content: "";
   padding: 0;
 }
+
+#top a.need {
+  float: left;
+}
+
+#top a.give {
+  float: right;
+}
