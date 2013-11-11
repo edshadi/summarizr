@@ -1,5 +1,7 @@
 var application_root = __dirname,
     express = require( 'express' ),
+    schema = require('./schema'),
+    passport = require('passport'),
     path = require( 'path' );
 
 
@@ -14,9 +16,7 @@ app.configure( function() {
   app.use( express.errorHandler({ dumpExceptions: true, showStack: true }));
 });
 
-// app.get('/', function(req, res){
-//   res.send('Hello World');
-// });
+
 var port = 4711;
 app.listen(port, function() {
   console.log("started node at port "+port);
