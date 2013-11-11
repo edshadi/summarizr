@@ -2,10 +2,10 @@
 
 /* Controllers */
 
-angular.module('jsPatterns.controllers', []).
-  controller('UserCtrl', [function() {
+angular.module('Summarizr.controllers', []).
+  controller('GiveCtrl', [function() {
 
   }])
-  .controller('MyCtrl2', [function() {
+  .controller('NeedCtrl', [function() {
 
   }]);

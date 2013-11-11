@@ -3,7 +3,7 @@
 /* jasmine specs for filters go here */
 
 describe('filter', function() {
-  beforeEach(module('jsPatterns.filters'));
+  beforeEach(module('Summarizr.filters'));
 
 
   describe('interpolate', function() {

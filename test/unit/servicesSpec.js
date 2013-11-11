@@ -3,7 +3,7 @@
 /* jasmine specs for services go here */
 
 describe('service', function() {
-  beforeEach(module('jsPatterns.services'));
+  beforeEach(module('Summarizr.services'));
 
 
   describe('version', function() {

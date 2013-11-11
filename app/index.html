@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="jsPatterns">
+<html lang="en" ng-app="Summarizr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stylish Portfolio Template for Bootstrap</title>
+    <title>Summarizr</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -23,8 +23,6 @@
     <div id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <li><a href="#/give-summary">Give Summary</a></li>
-        <li><a href="#/need-summary">Need Summary</a></li>
         <li class="sidebar-brand"><a href="/">Summarizr</a></li>
         <li><a href="#top">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -38,8 +36,10 @@
     <!-- Full Page Image Header Area -->
     <div id="top" class="header">
       <div class="vert-text">
+        <a href="#/need-summary" class="btn btn-info need">Need Summary</a>
+        <a href="#/give-summary" class="btn btn-warning give">Give Summary</a>
         <h1>Summarizr</h1>
-        <h3>summarize <em>Anything</em> that <em>You</em> want</h3>
+        <h3>Summarize <em>Anything</em> | Get <em>Summary</em> For Anything</h3>
         <div ng-view></div>
       </div>
     </div>
