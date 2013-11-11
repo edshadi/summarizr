@@ -10,7 +10,7 @@ angular.module('jsPatterns', [
   'jsPatterns.controllers'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/view1', {templateUrl: 'partials/partial1.html', controller: 'UserCtrl'});
-  $routeProvider.when('/view2', {templateUrl: 'partials/partial2.html', controller: 'MyCtrl2'});
-  $routeProvider.otherwise({redirectTo: '/view1'});
+  $routeProvider.when('/give-summary', {templateUrl: 'partials/give-summary.html', controller: 'GiveCtrl'});
+  $routeProvider.when('/need-summary', {templateUrl: 'partials/need-summary.html', controller: 'NeedCtrl2'});
+  $routeProvider.otherwise({redirectTo: '/give-summary'});
 }]);
