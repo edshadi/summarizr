@@ -1,0 +1,10 @@
+<form>
+  <input type="text" name="name" placeholder="Name" ng-model="user.name">
+  <input type="email" name="email" placeholder="Email" ng-model="user.email" >
+  <input type="password" name="password" placeholder="Password" ng-model="user.password">
+  <input type="submit" name="submit" value="Signup" ng-click="signup(user)">
+</form>
+<div>
+  {{current_user.name}}
+  {{current_user.email}}
+</div>
